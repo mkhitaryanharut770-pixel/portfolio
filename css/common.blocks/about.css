@@ -1,0 +1,22 @@
+.about {
+    padding-top: clamp(2.5rem, calc(0.804rem + 8.482vw), 8.438rem);
+    /* min: 40px, max: 135px */
+    ;
+    padding-bottom: clamp(1.875rem, calc(0.804rem + 5.357vw), 5.625rem);
+    /* min: 30px, max: 90px */
+    ;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.about__container {}
+
+.about__title {
+    margin-bottom: 30px;
+}
+
+.about__text {}
+
+.about__text:not(:last-child) {
+    margin-bottom: 50px;
+}

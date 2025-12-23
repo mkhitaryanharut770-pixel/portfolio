@@ -1,0 +1,43 @@
+.div__svg {
+    margin-top: clamp(2.5rem, calc(1.25rem + 6.25vw), 6.875rem);
+    /* min: 40px, max: 110px */
+    ;
+    padding-bottom: clamp(3.125rem, calc(1.875rem + 6.25vw), 7.5rem);
+    /* min: 50px, max: 120px */
+    ;
+    text-align: center;
+}
+
+.nav-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 45px;
+}
+
+.div__nav_svg {}
+
+.footer__div_h2 {
+    margin-bottom: 20px;
+}
+
+.div__h2_p {
+    margin-bottom: 30px;
+}
+
+.button_svg {
+    margin-bottom: 85px;
+    padding: 13px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.svg__gap {}
+
+.h4 {
+    color: #828282;
+}

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "gilroy";
+    src: url(../gilroy-medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "gilroy";
+    src: url(../gilroy-bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-family: "Gilroy", sans-serif;
+    --black: #070707;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+a {
+    color: inherit;
+    font-family: inherit;
+}
+
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.main {
+    min-height: 100%;
+}

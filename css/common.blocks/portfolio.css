@@ -1,0 +1,32 @@
+.Portfolio {
+    display: grid;
+    background-color: #f6f6f6;
+    text-align: center;
+    padding-top: clamp(2.5rem, calc(1.25rem + 6.25vw), 6.875rem);
+    /* min: 40px, max: 110px */
+    ;
+    padding-bottom: clamp(1.875rem, calc(0.714rem + 5.804vw), 5.938rem);
+    /* min: 30px, max: 95px */
+    ;
+}
+
+.Portfolio__container {}
+
+.portfolio__h2 {
+    margin-bottom: clamp(1.25rem, calc(0.714rem + 2.679vw), 3.125rem);
+    /* min: 20px, max: 50px */
+    ;
+}
+
+.portfolio__img {
+    margin-bottom: 45px;
+}
+
+.Portfolio__text {
+    display: block;
+    text-align: center;
+}
+
+.Portfolio__text:not(:last-child) {
+    margin-bottom: 100px
+}
