@@ -149,7 +149,7 @@
             <h2 class="footer__div_h2">Contacts</h2>
             <p class="div__h2_p">Want to know more or just chat? <br>
                 You are welcome!</p>
-            <button class="button_svg">Send message</button>
+            <button class="button_svg" data-dialog-open-btn>Send message</button>
             <nav class="nav-social">
                 <a class="svg_1" href="#">
                     <svg class="svg__gap" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
@@ -195,6 +195,16 @@
                 LinkedIn, Instagram, Behance, Dribble</p>
         </div>
     </footer>
+    <dialog class="dialog" data-dialog>
+        <button class="dialog__close-btn" data-dialog-close-btn>x</button>
+        <form class="form">
+            <input class="form__input" type="text" name="Name" placeholder="your Name">
+            <input class="form__input" type="email" name="Email" placeholder="your Emali">
+            <input class="form__input" type="tel" name="Phone" placeholder="your Phone">
+            <textarea class="form__textarea" name="massage" id="Massage"></textarea>
+            <button class="form__button">sobmit</button>
+        </form>
+    </dialog>
     <script src="./main.js"></script>
 </body>
 
